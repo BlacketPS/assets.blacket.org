@@ -53,6 +53,16 @@ module.exports = {
 		"@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
 		"@typescript-eslint/consistent-type-definitions": ["error", "interface"],
 		"@typescript-eslint/strict-boolean-expressions": "off",
+		"@typescript-eslint/member-delimiter-style": ["error", {
+			multiline: {
+				delimiter: "semi",
+				requireLast: true
+			},
+			singleline: {
+				delimiter: "semi",
+				requireLast: false
+			}
+		}],
 
 		// safety
 		"@typescript-eslint/no-floating-promises": "error",

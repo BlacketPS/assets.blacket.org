@@ -1,0 +1,17 @@
+{
+	"name": "@blacket-assets/types",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"files": [
+		"/dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"build:declaration": "tsc --declaration --emitDeclarationOnly"
+	},
+	"dependencies": {
+		"class-transformer": "^0.5.1",
+		"class-validator": "^0.14.1",
+		"typescript": "^5.7.3"
+	}
+}
