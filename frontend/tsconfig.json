@@ -1,0 +1,75 @@
+{
+	"compilerOptions": {
+		"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+		"target": "ES2023",
+		"baseUrl": "./",
+		"paths": {
+			"@api": [
+				"src/api/index"
+			],
+			"@api/*": [
+				"src/api/*"
+			],
+			"@assets": [
+				"src/assets/index"
+			],
+			"@assets/*": [
+				"src/assets/*"
+			],
+			"@components": [
+				"src/components/index"
+			],
+			"@components/*": [
+				"src/components/*"
+			],
+			"@constants": [
+				"src/constants/index"
+			],
+			"@constants/*": [
+				"src/constants/*"
+			],
+			"@hooks": [
+				"src/hooks/index"
+			],
+			"@hooks/*": [
+				"src/hooks/*"
+			],
+			"@stores": [
+				"src/stores/index"
+			],
+			"@stores/*": [
+				"src/stores/*"
+			],
+			"@utils": [
+				"src/utils/index"
+			],
+			"@utils/*": [
+				"src/utils/*"
+			]
+		},
+		"useDefineForClassFields": true,
+		"lib": [
+			"ES2023",
+			"DOM",
+			"DOM.Iterable"
+		],
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"moduleDetection": "force",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"jsx": "react-jsx",
+		"types": [
+			"vite/client"
+		],
+		"noEmit": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true
+	},
+	"include": [
+		"src"
+	]
+}
